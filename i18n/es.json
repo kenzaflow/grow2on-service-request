@@ -1,0 +1,287 @@
+{
+	"home": {
+		"title": "Inicio",
+		"banner": {
+			"title": "Hola {{name}}",
+			"description": "¡Te damos la bienvenida a Grow2On!\n\nConecta y sincroniza en un solo lugar tus plataformas de ventas en línea con tu ERP para optimizar tus operaciones y aumentar la eficiencia en tu negocio. Sabemos que la integración puede ser un proceso complicado, estamos para simplificarlo y hacerlo lo más fácil posible.\n\n¡Escala tu negocio al siguiente nivel!"
+		},
+		"document-title": "Inicio - Grow2On"
+	},
+	"products": {
+		"title": "Productos",
+		"document-title": "Productos - Grow2On",
+		"filters": {
+			"all": "Todos",
+			"related": "Vinculados",
+			"not-related": "No vinculados"
+		},
+		"header": {
+			"product": "Producto",
+			"sku": "SKU",
+			"category": "Rubro origen",
+			"sell-channels": "Canales de venta"
+		},
+		"table": {
+			"empty": "No hay productos para mostrar en este momento",
+			"empty-description": "Intenta buscar utilizando otros parámetros"
+		}
+	},
+	"orders": {
+		"title": "Pedidos",
+		"items": {
+			"products": "Productos",
+			"price": "Precio",
+			"stock": "Stock"
+		},
+		"price": "Monto venta:",
+		"erp-id": "Código de ERP:",
+		"erp-id-pending": "Pendiente"
+	},
+	"integrations": {
+		"title": "Integraciones",
+		"document-title": "Integraciones - Grow2On",
+		"data-origin": "Origen de datos",
+		"sales-channels": "Canales de venta",
+		"successfully-updated": "Se actualizó la autorización de MercadoLibre.",
+		"error-updating": "Ocurrió un error al enviar la autorización de MercadoLibre.",
+		"waiting": "Esperando autorización...",
+		"updating-auth": "Actualizando autorización...",
+		"button-renew": "Renovar autorización",
+		"button-config": "Configurar canal"
+	},
+	"configuration": {
+		"title": "Configuración",
+		"syncValidation": "Validación de sincronización:",
+		"syncValidationOptions": {
+			"both": "Precio y Stock",
+			"price": "Precio",
+			"stock": "Stock"
+		},
+		"sidebarOpenOn": "Abrir menú lateral:",
+		"sidebarOpenOnOptions": {
+			"click-hover": "Click y pasar mouse sobre la barra lateral",
+			"click": "Click"
+		},
+		"reset": {
+			"title": "Reestablecer configuración:",
+			"button": "Reestablecer configuración",
+			"success": "Configuración reestablecida correctamente."
+		},
+		"language": "Idioma:",
+		"document-title": "Configuración - Grow2On",
+		"alwaysShowVariants": "Mostrar variantes:",
+		"alwaysShowVariants-true": "Siempre",
+		"alwaysShowVariants-false": "Solo cuando existen variantes",
+		"alwaysShowVariants-always": "Siempre",
+		"alwaysShowVariants-if-exists": "Solo cuando existen variantes"
+	},
+	"login": {
+		"document-title": "Iniciar sesión - Grow2On",
+		"error": "Error al iniciar sesión. Inténtalo de nuevo.",
+		"error-network": "Hubo un error en la red. Inténtalo de nuevo.",
+		"warn-password": "La comprobación de contraseña segura se encuentra deshabilitada temporalmente.",
+		"email-placeholder": "Correo electrónico",
+		"password-placeholder": "Contraseña",
+		"button": "Iniciar sesión"
+	},
+	"filters": {
+		"channel": "Canal",
+		"loading": "Cargando...",
+		"all": "Todos",
+		"date": "Fecha",
+		"search": "Buscar",
+		"search-placeholder": "Buscar...",
+		"integrations": "Integraciones"
+	},
+	"product": {
+		"unknow": "Desconocido",
+		"sku": "SKU:",
+		"category": "Rubro origen:",
+		"stock": "Stock:",
+		"add-relation": "Agregar relación",
+		"no-relations": "Este producto no tiene relaciones",
+		"unknown": "Desconocido",
+		"channel-hover-description": "{{counter}} canal de {{integration}}, {{have}} errores",
+		"channel-hover-description_one": "{{counter}} canal de {{integration}}, {{have}} errores",
+		"price": "Precio:"
+	},
+	"add-relation": {
+		"selected": "Producto seleccionado:",
+		"selected-stock": "Stock:",
+		"selected-price": "Precio:",
+		"selected-sku": "SKU:",
+		"type": {
+			"publication": "Publicación",
+			"vinculation": "Vinculación"
+		},
+		"select": {
+			"channel": "Selecciona un canal",
+			"channel-choose": "Elige un canal...",
+			"channel-unavailable-create": "Lo sentimos, publicar con esta integración no está disponible.",
+			"channel-unavailable-link": "Lo sentimos, vincular con esta integración no está disponible.",
+			"channel-unavailable": "Lo sentimos, publicar con esta integración no está disponible.",
+			"channel-choose-label": "Canal"
+		},
+		"error-required-fields": "Faltan completar campos requeridos.",
+		"success-create": "La relación se creó correctamente.",
+		"error-create": "Ocurrió un error desconocido. Por favor, intente nuevamente.",
+		"create-button": "Crear relación",
+		"success-link": "La relación se vinculó correctamente",
+		"mercadolibre": {
+			"step-2": "Completa los datos"
+		},
+		"tiendanube": {
+			"step-2": "Completa los datos"
+		},
+		"destination-id": "ID de publicación/destino",
+		"destination-id-trailing": "ID de publicación/destino",
+		"create-button-vinculation": "Crear vinculación",
+		"mercadolibre-step-2-title": "Selecciona una categoría",
+		"required": "Requerido",
+		"create-button-publication": "Crear publicación",
+		"not_available": "(No disponible)",
+		"write-option": "Escribe una opción",
+		"select-unit": "Unidad...",
+		"select-option": "Selecciona una opción...",
+		"woocommerce": {
+			"step-2": "Selecciona la categoría",
+			"search-category": "Buscar",
+			"error": {
+				"404": "El producto no está preparado para publicarse en WooCommerce."
+			}
+		},
+		"vtex": {
+			"step-2": "Completa los datos",
+			"step-3": "Selecciona una categoría"
+		}
+	},
+	"add_relation": {
+		"tiendanube": {
+			"name": "Nombre"
+		},
+		"coefficient-price": "Coeficiente de precio",
+		"coefficient-price-trailing": "Coeficiente de precio...",
+		"coefficient-stock": "Coeficiente de stock",
+		"coefficient-stock-trailing": "Coeficiente de stock...",
+		"success-created": "Se publicó correctamente con el ID: {{destinationId}}",
+		"error-creating": "Ocurrió un error desconocido. Por favor, intente nuevamente.",
+		"mercadolibre-category-search-placeholder": "Buscar...",
+		"mercadolibre-category_select": "Selecciona una categoría...",
+		"mercadolibre-step-3": "Selecciona los atributos",
+		"mercadolibre-category-search": "Buscar",
+		"safety_stock": "Stock de seguridad"
+	},
+	"menu": {
+		"integrations": "Integraciones",
+		"configuration": "Configuración",
+		"exit": "Cerrar sesión",
+		"exit-confirmation": "¿Está seguro de que desea cerrar sesión? Para utilizar el integrador, debe iniciar sesión nuevamente.",
+		"exiting": "Cerrando sesión...",
+		"exit-confirm": "Cerrar sesión",
+		"changelog": "Ver cambios",
+		"help": "Ayuda"
+	},
+	"relations": {
+		"relations": "Relaciones",
+		"destination-id": "Código de destino",
+		"stock": "Stock",
+		"coefficient": "Monto venta",
+		"status": "Estado",
+		"type": "Tipo de publicación"
+	},
+	"relation": {
+		"type": {
+			"free": "Gratis",
+			"gold_pro": "Premium",
+			"gold_special": "Clásica",
+			"unknown": "Desconocido"
+		},
+		"success-unlink": "Se desvinculó la relación correctamente.",
+		"error-unlink": "Ocurrió un error al desvincular la relación. Intente de nuevo.",
+		"success-pause": "Se {{stateNow}} la relación correctamente.",
+		"success-pause-paused": "pausó",
+		"success-pause-enabled": "activó",
+		"success-edit": "Se actualizó la relación correctamente.",
+		"error-edit": "Ocurrió un error al editar la relación. Intente de nuevo.",
+		"content-id": "Código de publicación:",
+		"content-stock": "Stock:",
+		"content-coefficient": "Coeficiente:",
+		"content-unknown": "Desconocido",
+		"content-status": "Estado:",
+		"content-published": "Publicado",
+		"content-in-review": "En revisión",
+		"content-paused": "Pausado",
+		"content-publication-type": "Tipo de publicación:",
+		"origin-stock": "Stock de origen:",
+		"origin-amount": "Monto de origen:",
+		"origin-price-unknown": "Desconocido",
+		"visit": "Visitar",
+		"edit": "Editar",
+		"unlink": "Desvincular",
+		"pause": "Pausar",
+		"enable": "Activar",
+		"edit-title": "Editar relación",
+		"coefficient-price": "Coeficiente de precio",
+		"coefficient-price_placeholder": "Coeficiente de precio...",
+		"coefficient-stock": "Stock de seguridad",
+		"coefficient-stock_placeholder": "Coeficiente de stock...",
+		"update_information": "Actualizar",
+		"update_cancel": "Cancelar",
+		"unlink-warning": "¿Estás seguro que deseas desvincular la relación seleccionada?",
+		"unlink-button": "Desvincular",
+		"unlink-cancel": "Cancelar",
+		"view-attributes": "Relación seleccionada",
+		"view-attributes-id": "ID destino:",
+		"content-price": "Monto venta:",
+		"error-pause": "Ocurrió un error al {{state}} la relación",
+		"error-pause-paused": "pausar",
+		"error-pause-enabled": "activar",
+		"sell-stock": "Stock venta:",
+		"sell-price": "Monto venta:",
+		"status": "Estado:"
+	},
+	"pause_relation": {
+		"warning": "¿Estás seguro que deseas {{action}} la relación seleccionada?",
+		"warning-pause": "pausar",
+		"warning-enable": "activar",
+		"button-pause": "Pausar",
+		"button-enable": "Activar"
+	},
+	"pagination": {
+		"of": "de",
+		"rows": "filas",
+		"rows-title": "Filas por página"
+	},
+	"changelog": {
+		"title": "Lista de cambios"
+	},
+	"woocommerce": {
+		"publish-error": "Ocurrió un error desconocido al publicar en WooCommerce, intente de nuevo.",
+		"publish-success": "Se publicó correctamente."
+	},
+	"selected": {
+		"relation": "Relación seleccionada:",
+		"product": "Producto:",
+		"other": "Seleccionado:",
+		"sku": "SKU:",
+		"stock": "Stock:",
+		"price": "Precio:",
+		"destination-id": "Código de destino:",
+		"variation": "Variante seleccionada:",
+		"channel": "Canal:"
+	},
+	"variations": {
+		"by-attributes": "Por atributos",
+		"by-id": "Por código de destino"
+	},
+	"vtex": {
+		"create": {
+			"success": "Se creó la relación correctamente.",
+			"error": "Ocurrió un error al crear la publicación.",
+			"success-with-id": "Se creó la publicación con el código de destino {{id}}"
+		}
+	},
+	"table": {
+		"empty": "No hay items para mostrar en este momento."
+	}
+}
